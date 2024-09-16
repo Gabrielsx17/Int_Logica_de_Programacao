@@ -1,0 +1,76 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 26/08/2024
+Var
+// Seção de Declarações das variáveis
+       i, cont:inteiro
+       m : real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+cont<- 1
+escreval ("Digite sua idade ")
+leia (i)
+enquanto i >= 0 faca
+m<- m+i
+escreval ("Digite sua idade ")
+leia (i)
+cont <-cont +1
+fimenquanto
+m<-m/(cont-1)
+escreval ("A média é ",m)
+Fimalgoritmo
+--------------------------------------------------------------------------------------------------------------------------------------------------------------Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 16/09/2024
+Var
+// Seção de Declarações das variáveis
+ n, : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+enquanto n >= 0 faca
+escreval("Digite 1 numero inteiro")
+leia (n)
+n <- n*2
+escreval (n)
+fimenquanto
+
+Fimalgoritmo
+--------------------------------------------------------------------------------------------------------------------------------------------------------------Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 16/09/2024
+Var
+// Seção de Declarações das variáveis
+login, senha : caractere
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval ("Login:")
+leia (login)
+escreval ("Senha:")
+leia (senha)
+
+enquanto login <> "Admin" faca
+         enquanto senha <> "Admin123" faca
+                  Escreval ("Algo está errado")
+                  escreval ("Login:")
+                  leia (login)
+                  escreval ("Senha:")
+                  leia (senha)
+         fimenquanto
+fimenquanto
+escreval ("Bem vindo ao sistema!")
+
+
+
+Fimalgoritmo
+------------------------------------------------------------------------------------------------------------------------------------------------------------
